@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider-container">
+            <label for="celsius">Celsius:</label>
+            <input type="range" id="celsius" min="-100" max="100" value="0">
+            <span id="celsius-value">0</span> °C
+        </div>
+        <div class="slider-container">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input type="range" id="fahrenheit" min="-148" max="212" value="32">
+            <span id="fahrenheit-value">32</span> °F
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>
